@@ -1,0 +1,21 @@
+--Initialize git--
+git init
+
+--save progress--
+git add .
+
+--commit changes to memory--
+commit -m 'message'
+
+--view log--
+git log
+
+--load previous state--
+git checkout <hash code from log>
+
+
+--load to github--
+git remote add origin <repository from github>
+
+--check version of something--
+pip show <package name>
